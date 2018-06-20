@@ -40,6 +40,7 @@ function init(KeyboardEvent) {
   }
 }
 */
+
 function init() {
 document.addEventListener('keydown', function(e) {
   const theKey = e.key
