@@ -40,9 +40,9 @@ function init(KeyboardEvent) {
   }
 }
 */
-
-function init() {
 var index = 0;
+function init() {
+
 document.addEventListener('keydown', function(e) {
   var theKey = e.key
   if(theKey == codes[index]) {
