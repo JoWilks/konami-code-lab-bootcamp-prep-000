@@ -11,6 +11,7 @@ const codes = [
   "a"   //keycode = 65
 ];
 
+/*
 var allowedKeys = {
   37: 'ArrowLeft',
   38: 'ArrowUp',
@@ -19,6 +20,7 @@ var allowedKeys = {
   65: 'a',
   66: 'b'
 };
+*/
 
 /*document.addEventListener('keydown', init);
 
