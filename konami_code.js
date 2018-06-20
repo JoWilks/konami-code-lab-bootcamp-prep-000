@@ -20,7 +20,7 @@ var allowedKeys = {
   66: 'b'
 };
 
-document.addEventListener('keydown', init);
+/*document.addEventListener('keydown', init);
 
 var index=0;
 
@@ -39,4 +39,18 @@ function init(KeyboardEvent) {
     index = 0;
   }
 }
-
+*/
+function init() {
+document.addEventListener('keydown', function(e) {
+  const theKey = e.key
+  if(theKey == codes[index]) {
+    index++;
+    if(index == codes.length) {
+      alert("Konami Code Entered!");
+      index = 0;
+    }
+  } else {
+    index = 0;
+  }
+})
+}
