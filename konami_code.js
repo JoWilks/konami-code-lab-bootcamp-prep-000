@@ -46,7 +46,7 @@ function init(KeyboardEvent) {
 var index = 0;
 
 function init() {
-document.addEventListener('keydown', function(e) {
+document.addEventListener('keydown', function() {
   var theKey = e.key;
     if(theKey == codes[index]) {
     index++;
